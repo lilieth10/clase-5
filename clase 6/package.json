@@ -1,0 +1,23 @@
+{
+  "name": "clase-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tarea1-calse6.js",
+  "scripts": {
+    "start": "npx http-server -p 8000",
+    "cy:run": "cypress run",
+    "cypress-dev": "cypress open",
+    "test": "run-p start cypress-run",
+    "test-dev": "run-p start cypress-dev"
+},
+  "keywords": [],
+  "author": "lilieth",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "cypress": "^13.7.0",
+    "http-server": "^14.1.1"
+  }
+}
